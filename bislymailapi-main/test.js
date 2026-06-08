@@ -3,17 +3,14 @@
 // Command to run this file: node test.js
 
 async function runTest() {
-    const url = 'http://127.0.0.1:3000/api/contact';
+    const url = '/contact';
 
     const payload = {
         fullName: 'Test Automation',
         email: 'test@example.com',
         phone: '2341234567',
-        company: 'Gamomatic Testing Inc',
+        company: 'Bisly  Testing Inc',
         service: 'Consultation',
-        organizationType: 'private',
-        budget: 'above100m',
-        timeline: 'immediate',
         message: 'This is a beautiful test message to ensure the Resend API configuration is passing through perfectly in both text and HTML.',
     };
 
